@@ -39,6 +39,10 @@ The primary goal of this project was to strengthen my grasp of the **core web te
 2. Navigate to the project directory.
 3. Open the `index.html` file in any web browser to view the website.
 
+## Live Demo
+You can view the live version of the website here: [College Website]([https://your-website-link.com](https://nnkjko9s7atgzwhz8hz80g.on.drv.tw/www.shivascmrcetsample.ac.in/))
+
+
 ## Future Improvements
 - Adding **JavaScript** for interactivity, such as dynamic forms and enhanced user experiences.
 - Improving the responsiveness and adding more detailed content sections.
