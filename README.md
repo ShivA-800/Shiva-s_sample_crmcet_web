@@ -40,7 +40,7 @@ The primary goal of this project was to strengthen my grasp of the **core web te
 3. Open the `index.html` file in any web browser to view the website.
 
 ## Live Demo
-You can view the live version of the website here: [College Website]([https://your-website-link.com](https://nnkjko9s7atgzwhz8hz80g.on.drv.tw/www.shivascmrcetsample.ac.in/))
+You can view the live version of the website here: [College Website](https://nnkjko9s7atgzwhz8hz80g.on.drv.tw/www.shivascmrcetsample.ac.in/)
 
 
 ## Future Improvements
