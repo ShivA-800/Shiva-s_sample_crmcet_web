@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+
+
+<body>
+    <section class="about-header">
+       <nav>
+        <a href="index.html"><img src="/Images/clg_logo_main.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact-us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+              <h1>PRE-PLACEMENT TRAINING PROGRAMMES CONDUCTED</h1>
+        
+    </section>
+
+
+
+    <section class="blog-cont">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/Images/facilities3.jpg">
+                <h3>TRAINING PROGRAMMES</h3>
+                <p>The Training Program generally deals with all the aspects of soft skills required by any individual to face an interview process. The duration of the program is around 40hours in which the following aspects are dealt with
+                    • Aptitude (Arithmetic, Reasoning & Verbal)
+                    • Presentation Skills
+                    • Interpersonal & Behavioral Skills
+                    • Resume Building Skills
+                    • Group Discussion Skills
+                    • Interview Skills    
+                    In addition to the soft skills training program, we also conduct a 10hour program to refresh the technical skills of final year students to face the Technical test & Interviews. This program basically deals with “C” and Data Structures and is very much helpful for the non-computer science students who opt for software jobs.</p>
+                <br>
+                <img src="/Images/facilities4.JPG">
+                <h3>PLACEMENTS</h3>
+                <p>
+                    A separate Training & Placement wing exists for the outgoing students for placements and higher studies (In India & Abroad), along with Soft Skills Training & Entrepreneur development training. A number of first batch of outgoing students have already been placed in organizations such as Infosys, Wipro, Satyam, IBM, Syntel, CTS, L&T InfoTech, Dolcera Etc.
+A full fledged Training & Placement Cell headed by a Professor assisted by coordinators from each department and a computer operator with internet facility are in full swing.
+                </p>
+                <br>
+                <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+                </div>  
+
+                
+                </div>
+
+                <div class="blog-right">
+                    <h3>Posts</h3>
+                    <div>
+                        <span>Recent Posts</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>CSE</span>
+                        <span>12</span>
+                    </div>
+                    
+                    <div>
+                        <span>Mech News</span>
+                        <span>21</span>
+                    </div>
+                    
+                    <div>
+                        <span>Festivals Hawa</span>
+                        <span>20</span>
+                    
+                    </div>
+        </div>
+            
+
+    </section>
+
+
+
+<!-- ABOUT US: -->
+<!-- -----footer--------------- -->
+<section class="footer">
+        <h2>About us</h2>
+        <p>   
+        <b>Vision:</b>
+        Our Vision is to remain a premier academic institution striving continuously for excellence in technical education, research and render technological services to the nation.
+        <br>
+        <b>Mission:</b>
+        Our Mission is to create and sustain a community of learning in which students acquire knowledge and learn to apply it professionally with a concern for the society.</br>
+        • Pursue and Disseminate Research Findings and Offer Knowledge-Based Technological Services to Satisfy the Needs of Society and the Industry.</br>
+        • Promote Professional Ethics, Leadership Qualities and Social Responsibilities.
+        </p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> by Shiva Radharapu</p>
+   
+</section>
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+</body>
+</html>
